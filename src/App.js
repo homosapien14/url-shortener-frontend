@@ -3,9 +3,13 @@ import UrlShortener from './components/UrlForm';
 
 function App() {
   return (
-    <div className="App">
-      <h1>URL shortener service</h1>
-      <UrlShortener/>
+    <div className="App text-center d-flex justify-content-center">
+      <div>
+        <h1>URL shortener service</h1>
+      </div>
+      
+         <UrlShortener/>
+     
     </div>
   );
 }

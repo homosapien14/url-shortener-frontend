@@ -7,7 +7,7 @@ function UrlShortener() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch("https://url-shortener-backend-fptr.onrender.com/api/url/shorten", {
+      const response = await fetch("https://swapnil-shorturl.onrender.com/api/url/shorten", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -29,7 +29,7 @@ function UrlShortener() {
   };
 
   return (
-    <div className="url-shortener-container">
+    <div className="url-shortener-container ">
         
       <form className="url-shortener-form" onSubmit={handleSubmit}>
         <label className="url-label">URL: </label>
