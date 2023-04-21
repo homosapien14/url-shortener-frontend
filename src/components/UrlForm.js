@@ -42,7 +42,7 @@ function UrlShortener() {
             <div className="shortened-url-container"> 
                 <p className="shortened-url-box">
                     <span className="shortened-url-label">Shortened URL: </span> 
-                    <a href={shortenedUrl} target="_blank"className="shortened-url-link">{shortenedUrl}</a>
+                    <a href={shortenedUrl} target="_blank" rel="noreferrer" className="shortened-url-link">{shortenedUrl}</a>
                 </p>
             </div> 
         }
