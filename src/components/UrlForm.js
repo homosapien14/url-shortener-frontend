@@ -7,7 +7,7 @@ function UrlShortener() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch("http://127.0.0.1:8081/api/url/shorten", {
+      const response = await fetch("https://url-shortener-backend-fptr.onrender.com/api/url/shorten", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
