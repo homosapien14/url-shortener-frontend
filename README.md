@@ -1,4 +1,4 @@
-### It full stack web application which short the Long URLs.
+### It full stack web application which short the Long URLs(using MERN stack).
 
 Live Demo: https://swapnil-amin-url-shortener.netlify.app/
 
